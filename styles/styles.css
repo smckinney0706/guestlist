@@ -1,0 +1,117 @@
+@font-face {
+    font-family: brushScript;
+    src: url(../fonts/brushScript.ttf);
+}
+body, html {
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+	font-family: "Trebuchet", Arial, sans-serif;
+	padding: 0px;
+	/*margin: 0px;
+*/	width: 1270px;
+	height: auto;
+	background-color: #ddcb90;
+	background-image: url("../images/scroll.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+h1 {
+	color: #6e2a02;
+    font-family: brushScript;
+    font-size: 60px;
+    margin-top: 0px;
+    width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+form {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+}
+#firstName {
+	margin-right: 20px;
+	border-radius: 5px;
+	border-color: #d49743;
+}
+#lastName {
+	border-radius: 5px;
+	border-color: #d49743;
+}
+#submit {
+	padding-left: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#submitButton {
+	font-weight: bold;
+	color: white;
+    background-color: #d49743;
+    border-radius: 5px;
+    border-color: #6e2a02;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#firstLast {
+    width: 500px;
+    display: inline-block;
+    margin-left: 65px;
+    margin-right: auto;
+}
+#email {
+    width: 400px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: auto;
+    text-align: center;
+}
+#emailAddress {
+	width: 180px;
+	border-radius: 5px;
+	border-color: #d49743;
+}
+#guestEntries {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 200px;
+    text-align: center;
+}
+hr {
+	margin-top: 30px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #d49743;
+	width: 610px;
+}
+#guestEntries h2:nth-child(odd) {
+	padding-bottom: 20px;
+    border-bottom: solid;
+    border-bottom-color: #6e2a02;
+    border-width: 2px;
+}
+#guestEntries h2:nth-child(even) {
+	padding-bottom: 20px;
+    border-bottom: solid;
+    border-bottom-color: #d49743;
+    border-width: 2px;
+}
+h2 {
+	font-family: brushScript;
+	font-size: 30px;
+}
+#contain {
+	margin-right: auto;
+	margin-left: auto;
+}
+span {
+	color: #6e2a02;
+}
+
+
+
