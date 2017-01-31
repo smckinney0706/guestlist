@@ -32,6 +32,7 @@ form {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 20px;
+	margin-top: 35px;
 }
 #firstName {
 	margin-right: 20px;
@@ -50,7 +51,7 @@ form {
 #submitButton {
 	font-weight: bold;
 	color: white;
-    background-color: #d49743;
+    background-color: #a16614;
     border-radius: 5px;
     border-color: #6e2a02;
     width: 100px;
@@ -76,6 +77,7 @@ form {
 	border-color: #d49743;
 }
 #guestEntries {
+	color: #6e2a02;
     width: 610px;
     margin-left: auto;
     margin-right: auto;
@@ -86,20 +88,21 @@ hr {
 	margin-top: 30px;
 	border-width: 1px;
 	border-style: solid;
-	border-color: #d49743;
+	border-color: #8f7234;
 	width: 610px;
 }
 #guestEntries h2:nth-child(odd) {
 	padding-bottom: 20px;
     border-bottom: solid;
-    border-bottom-color: #6e2a02;
+    border-bottom-color: #8f7234;
     border-width: 2px;
 }
 #guestEntries h2:nth-child(even) {
 	padding-bottom: 20px;
     border-bottom: solid;
-    border-bottom-color: #d49743;
+    border-bottom-color: #8f7234;
     border-width: 2px;
+    color: #a16614;
 }
 h2 {
 	font-family: brushScript;
